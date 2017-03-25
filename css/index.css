@@ -1,0 +1,215 @@
+body{
+	font-family: '微软雅黑';
+}
+/*导航开始*/
+.navbar-default{
+	background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #40D2B1;
+	height: 60px;
+	line-height: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 60px;
+	line-height: 30px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	color: #fff;
+	background-color: rgb(69,210,184)
+}
+.navbar-default .navbar-toggle {
+    border-color: #40D2B1;
+}
+.navbar-toggle {
+    padding: 6px 8px;
+    margin-top: 16px;
+}
+/*导航结束*/ 
+
+/*banner开始*/
+#banner{
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	background: url('../images/banner-bg.jpg');
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.filter{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	padding: 60px 0;
+}
+#banner h1{
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+#banner p{
+	font-weight: 400;
+}
+#banner img{
+	margin-top: 30px;
+	display: inline-block;
+}
+/*banner结束*/
+
+/*bbs开始*/
+#bbs{
+	padding: 20px 0;
+	text-align: center;
+}
+#bbs a{
+	color: #000;
+	text-decoration: none;
+}
+#bbs .col-md-4{
+	padding: 15px;
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+#bbs .col-md-4:hover{
+	background: #f1f1f1;
+	box-shadow: 1px 1px 4px #ccc;
+}
+/*bbs开始*/
+
+/*课程开始*/
+#lesson{
+	background: #f8f8f8;
+	padding: 20px 0;
+}
+#lesson .grain{
+	width: 30px;
+	height: 30px;
+	background: #40D2B1;
+	border-radius: 50%;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+#lesson h2{
+	font-weight: bold;
+}
+#lesson p{
+	line-height: 30px;
+}
+#bootstrap{
+	background: #f8f8f8;
+}
+/*课程结束*/
+
+/*教程开始*/
+#course{
+	text-align: center;
+	background: #f8f8f8;
+	padding: 20px 0;
+}
+#course h2{
+	font-weight: bold;
+	padding-bottom: 30px; 
+}
+#course .course{
+	background: #fff;
+	padding-bottom: 16px;
+}
+#course .col-md-3{
+	margin-top: 20px;
+}
+#course .course .btn{
+	background: transparent;
+	border: 1px solid #40D2B1;
+	border-radius: 0;
+	padding: 10px 40px; 
+	margin-top: 16px;
+	color: #40D2B1;
+	transition: all 0.5s;
+}
+#course .course .btn:hover{
+	background: #40D2B1;
+	color: #fff;
+}
+/*教程结束*/
+
+/*app开始*/
+#app{
+	padding: 20px 0;
+	background: #f8f8f8;
+}
+#app h2{
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+#app .btn{
+	margin: 20px auto;
+	background: #40D2B1;
+	color: #fff;
+	padding: 6px 14px;
+	margin-right: 10px;
+	transition: all 0.5s;
+
+}
+#app .btn:hover{
+	background: #50ab8D;
+}
+/*app结束*/
+
+/*联系开始*/
+#contact{
+	background: url('../images/map.png') no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+#contact h2{
+	font-weight: bold;
+	margin-bottom: 26px;
+	margin-top: 0;
+}
+#contact p{
+	line-height: 30px;
+}
+#contact .filer{
+	background: rgba(0,0,0,0.4);
+}
+#contact .form-control{
+	border: none;
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#contact textarea.form-control{
+	height: 90px;
+}
+#contact input[type="submit"]{
+	background: #40D2B1;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	transition: all 0.5s;
+}
+#contact input[type="submit"]:hover{
+	background: #50ab8D;
+}
+/*联系结束*/
+
+/*脚部开始*/
+footer{
+	text-align: center;
+	font-weight: 400;
+	padding: 20px 0;
+}
+/*脚步结束*/
